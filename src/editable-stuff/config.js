@@ -110,7 +110,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time/part-time roles in Autonomous Vechicle opportunities! If you know of any postions that are available or just want to connect,please feel free to email me at theogsuriyas[AT]gmail[DOT]com",
+    "I'm currently looking for full-time/part-time opportunities in Autonomous Vehicles! If you know of any postions that are available or just want to connect,please feel free to email me at theogsuriyas[AT]gmail[DOT]com",
   // email: "theogsuriyas[AT]gmail[DOT]com",
 };
 
