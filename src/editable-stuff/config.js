@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/images.png"),
   imageSize: 375,
   message:
-    "I'm a grad student doing his Master of Engineering in Robotics at the University of Maryland,College Park.Focused on pursing a career in Autonmous Vechicles and self-driving cars.Specialized in Computer Vision,Robot Localization and Machine Learning.Passionate in learning and trying to be the best I can be.Part-time Tech enthusiast and Petrolhead",
+    "I'm a grad student doing his Master of Engineering in Robotics at the University of Maryland,College Park. Focused on pursing a career in Autonmous Vechicles and self-driving cars. Specialized in Computer Vision, Robot Localization and Machine Learning. Passionate in learning and trying to be the best I can be. Part-time Tech enthusiast and Petrolhead ",
   // resume: require("../editable-stuff/resume_github.pdf"),
   resume: "https://drive.google.com/file/d/1BAzfgIpKKatnuIZ8xzF8dr3ocPXyP6Jb/view?usp=sharing"
 };
