@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Suriya",
   middleName: "",
   lastName: "Suresh",
-  message: "Robotics Engineer,Tinkerer,Petrolhead",
+  message: "Robotics Engineer, Tinkerer, Petrolhead",
   icons: [
     {
       image: "fa-github",
@@ -42,8 +42,9 @@ const about = {
   imageLink: require("../editable-stuff/images.png"),
   imageSize: 375,
   message:
-    "My name is Suriya Suresh. I’m currently a grad student pursing a Masters in Robotics at the University of Maryland,College Park.",
-  resume: require("../editable-stuff/resume_github.pdf"),
+    "I'm a grad student doing his Master of Engineering in Robotics at the University of Maryland,College Park.Focused on pursing a career in Autonmous Vechicles and self-driving cars.Specialized in Computer Vision,Robot Localization and Machine Learning.Passionate in learning and trying to be the best I can be.Part-time Tech enthusiast and Petrolhead",
+  // resume: require("../editable-stuff/resume_github.pdf"),
+  resume: "https://drive.google.com/file/d/1BAzfgIpKKatnuIZ8xzF8dr3ocPXyP6Jb/view?usp=sharing"
 };
 
 // PROJECTS SECTION
@@ -55,8 +56,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "theunknowninfinite", //i.e."johnDoe12Gh"
-  reposLength: 2,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ["toy_car_in_ros","Modeling-and-Simulation-of-Martian-Rover","robot_navigation_with_ML"],
 };
 
 // Leadership SECTION
@@ -91,7 +92,7 @@ const skills = {
     { name: "Python", value: 50 },
     { name: "PLC Programming", value: 75 },
     { name: "Linux", value: 70 },
-    { name: "C/C++", value:50 },
+    { name: "ROS", value:50 },
     { name: "Matlab", value: 50 },
     { name: "Solidworks", value: 65 },
   ],
@@ -115,18 +116,18 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Research Trainee',// Here Add Company Name
+      companylogo: require('../assets/img/LOGO(1).png'),
+      date: 'August 2021 – June 2022',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Intern',
+      companylogo: require('../assets/img/logo_1(1).png'),
+      date: 'Janurary 2021 – April 2021',
     },
   ]
 }
