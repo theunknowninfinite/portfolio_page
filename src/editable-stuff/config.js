@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Suriya",
   middleName: "",
   lastName: "Suresh",
-  message: "Robotics Engineer, Reseacher, Tinkerer",
+  message: "Robotics Engineer, Researcher, Tinkerer",
   icons: [
     {
       image: "fa-github",
@@ -42,9 +42,9 @@ const about = {
   imageLink: require("../editable-stuff/images.png"),
   imageSize: 375,
   message:
-    "I'm a grad student doing his Master of Engineering in Robotics at the University of Maryland, College Park. Focused on pursing a career in Autonmous Vechicles and self-driving cars. Interested in computer vision, simulation and mapping.Passionate in learning and trying to be the best I can be.Avid Tech enthusiast and Petrolhead ",
+    "I'm a grad student doing his Master of Engineering in Robotics at the University of Maryland, College Park. Focused on pursing a career in Autonmous Vechicles and self-driving cars. Interested in computer vision, simulation and mapping.Passionate in learning and trying to be the best I can be. Avid Tech enthusiast and Petrolhead",
   // resume: require("../editable-stuff/resume_github.pdf"),
-  resume: "https://drive.google.com/file/d/1BAzfgIpKKatnuIZ8xzF8dr3ocPXyP6Jb/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1BAzfgIpKKatnuIZ8xzF8dr3ocPXyP6Jb/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -54,9 +54,9 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Projects",
+  heading: "Recent Projects",
   gitHubUsername: "theunknowninfinite", //i.e."johnDoe12Gh"
-  reposLength: 1,
+  reposLength: 1 ,
   specificRepos: ["Meta-Learning-For-INR","3D_mapping_and_Object_Segmentation","Modeling-and-Simulation-of-Martian-Rover"],
 };
 
@@ -130,7 +130,7 @@ const experiences = {
       date: 'Janurary 2021 – April 2021',
     },
   ]
-}
+};
 
 // Blog SECTION
 // const blog = {
